@@ -54,7 +54,7 @@ E: Sanju
 Jawaban Anda: `
 
 
-//JAWAB DENGAN HURUF KAPITAL!!!!//
+
 
 rl.question('Masukkan nama Anda: ', (input) => {
   rl.question(q1, (ans1) => {
