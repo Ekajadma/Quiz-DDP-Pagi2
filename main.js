@@ -58,35 +58,35 @@ Jawaban Anda: `
 
 rl.question('Masukkan nama Anda: ', (input) => {
   rl.question(q1, (ans1) => {
-    if (ans1 == 'B') {
+    if (ans1 == 'B' || ans1 == 'b' ) {
       score++
       correctAns++
     } else {
       wrongAns++
     }
     rl.question(q2, (ans2) => {
-      if (ans2 == 'A') {
+      if (ans2 == 'A'|| ans2 == 'a') {
         score++
         correctAns++
       } else {
         wrongAns++
       }
       rl.question(q3, (ans3) => {
-        if (ans3 == 'A') {
+        if (ans3 == 'A'|| ans3 == 'a') {
           score++
           correctAns++
         } else {
           wrongAns++
         }
     rl.question(q4, (ans4) => {
-        if (ans4 == 'E') {
+        if (ans4 == 'E'|| ans4 == 'e') {
            score++
            correctAns++
         } else {
           wrongAns++
         }
     rl.question(q5, (ans5) => {
-        if (ans4 == 'A') {
+        if (ans5 == 'A'|| ans5 == 'b') {
             score++
             correctAns++
         } else {
